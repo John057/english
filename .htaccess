@@ -1,0 +1,8 @@
+AddDefaultCharset UTF-8
+<IfModule dir_module>
+    DirectoryIndex index.html index.php  index.htm index.pl
+</IfModule>
+php_flag display_erros on
+php_value error_reporting -1;
+# RemoveHandler .html .htm  
+# AddType application/x-httpd-php .php .htm .html .phtml
